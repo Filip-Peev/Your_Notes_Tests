@@ -52,3 +52,7 @@ npx playwright test --headed
 ```
 npx playwright test --ui
 ```
+3. Check the results by running this command
+```
+npx playwright show-report
+```
