@@ -31,6 +31,7 @@ c:\my_tests
 ```
 npm init playwright@latest
 ```
+You can delete example.spec.ts inside /tests folder
 ### 4. Get the tests archive
 1. Download the tests archive from <a href="https://github.com/Filip-Peev/Your_Notes_Tests/releases/download/v1.0/_your-notes.zip" target="_blank">Automation Tests</a>.
 2. Extract it somewhere and take the folder and file
@@ -38,7 +39,16 @@ npm init playwright@latest
 tests
 playwright.config.ts
 ```
-and put them inside the folder, replacing files and folders
+3. Put them inside the folder, replacing files and folders
 ```
 c:\my_tests
+```
+### 5. Run the tests
+1. Run the tests with this command:
+```
+npx playwright test --headed
+```
+2. Use the UI:
+```
+npx playwright test --ui
 ```
