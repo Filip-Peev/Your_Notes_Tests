@@ -38,10 +38,7 @@ npm init playwright@latest
 tests
 playwright.config.ts
 ```
-and put them inside, replacing files and folders
+and put them inside the folder, replacing files and folders
 ```
 c:\my_tests
 ```
-
-
-
