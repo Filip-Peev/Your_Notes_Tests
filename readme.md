@@ -5,7 +5,7 @@ Follow these steps to set up your environment and run the automated tests for
 
 ## Prerequisites
 
-You will need the following installed on your system Node.js and Playwright
+You will need the following installed on your system - Node.js and Playwright
 
 ---
 
