@@ -31,7 +31,9 @@ c:\my_tests
 ```
 npm init playwright@latest
 ```
-You can delete example.spec.ts inside /tests folder
+ - The installer will ask you few questions, press Enter for defaults
+ - You can delete example.spec.ts inside /tests folder
+
 ### 4. Get the tests archive
 1. Download the tests archive from <a href="https://github.com/Filip-Peev/Your_Notes_Tests/releases/download/v1.0/_your-notes.zip" target="_blank">Automation Tests</a>.
 2. Extract it somewhere and take the folder and file
