@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test.use({ launchOptions: { slowMo: 0 } });
+test.use({ launchOptions: { slowMo: 100 } });
 
 test.describe('Notes Management System - Single User Flow', () => {
 

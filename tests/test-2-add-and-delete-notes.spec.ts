@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 // Setting slowMo to 0 for speed, but you can change to 300 for debugging
-test.use({ launchOptions: { slowMo: 0 } });
+test.use({ launchOptions: { slowMo: 100 } });
 
 test.describe('Notes Management System', () => {
 

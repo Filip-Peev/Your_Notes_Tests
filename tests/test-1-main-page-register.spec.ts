@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 // This will apply slow-mo to every test in THIS file only
-test.use({ launchOptions: { slowMo: 0 } });
+test.use({ launchOptions: { slowMo: 100 } });
 
 test.describe('Authentication Flow', () => {
 
